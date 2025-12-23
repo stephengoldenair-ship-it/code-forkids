@@ -1,0 +1,50 @@
+# =========================
+# C++ Build Files
+# =========================
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.dll
+*.dylib
+
+# CMake build folders
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+bin/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
