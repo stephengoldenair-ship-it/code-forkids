@@ -11,7 +11,7 @@ int main() {
 
     do {
         if (lives <= 0) {
-            cout << "\n💀 You have no lives left!" << endl;
+            cout << "\n You have no lives left!" << endl;
             break;
         }
 
@@ -25,7 +25,7 @@ int main() {
 
         // check valid bet
         if (bet <= 0 || bet > lives) {
-            cout << "❌ Invalid bet!" << endl;
+            cout << " Invalid bet!" << endl;
             continue;
         }
 
@@ -34,10 +34,10 @@ int main() {
 
         if (guess == dice) {
             cout << "🎉 Correct! The dice was " << dice << endl;
-            lives += bet;   // win bet
+            lives *= 4;   // win bet
             score++;
         } else {
-            cout << "❌ Wrong! The dice was " << dice << endl;
+            cout << " Wrong! The dice was " << dice << endl;
             lives -= bet;   // lose bet
         }
 
